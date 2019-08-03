@@ -2,14 +2,13 @@
 <html>
 <head>
 <title>Kran Homework 1 | Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	
-	<!-- Nav Bar -->
+	<!-- Nav -->
 <nav>
   <div class="navbar">
     <div class="navcontent">
@@ -25,17 +24,27 @@
   </div>
 </nav>
 	
-	<!-- Body -->
+	<!-- body -->
 <div>
   <div class="content aboutme">
     <div class="line">
       <h1>About Me</h1>
     </div>
-    <div class="column"> <img src="img/kran.jpeg" width="90%" height="90%"> </div>
-    <div class="row">
-      <p>Aside from school and work, I have a strong passion about Coffee. This passion started about 6 years ago when I met one good friend of mine. Her life was all about coffee shop. Then I tried several places and fallen in love with the hobby. </p>
-      <p><span>#Krancoffeehop</span> is the hashtag I created to map all places I went. Let's take a look of my favorite top 6 in the US on the Portfolio page. </p>
-    </div>
+    <form>
+      <label for="fname">
+      <p>First Name</p>
+      </label>
+      <input type="text" id="fname" name="fname" placeholder="John Smith">
+      <label for="lname">
+      <p>Last Name</p>
+      </label>
+      <input type="text" id="lname" name="lname" placeholder="example@gmail.com">
+      <label for="lname">
+      <p>Message</p>
+      </label>
+      <input type="text2" id="message" name="messag">
+    </form>
+    <button class="button button1">Submit</button>
   </div>
 </div>
 	
@@ -45,7 +54,5 @@
     <p>Copyright Kran Suwan</p>
   </div>
 </footer>
-	
-	
 </body>
 </html>
